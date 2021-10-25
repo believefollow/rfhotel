@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "models/customers",
+    "models/managers",
+    "models/rooms",
+
+    "federation/customers",
+    "federation/managers",
+    "federation/rooms",
+]

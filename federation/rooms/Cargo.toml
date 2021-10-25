@@ -1,0 +1,12 @@
+[package]
+name = "subscription"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+async-graphql = "2.8.5"
+async-graphql-axum = "2.10.5"
+tokio = { version = "1.8", features = ["macros", "rt-multi-thread"] }
+rooms = { path = "../../models/rooms" }
+hyper = "0.14"
+axum = { version = "0.2.5", features = ["ws", "headers"] }
